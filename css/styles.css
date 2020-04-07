@@ -21,6 +21,12 @@ body {
     padding-left: 160px;
     padding-right: 160px;
     padding-top: 160px;
+    
+    @media only screen and (max-width: 600px) {
+        body {
+            background-color: lightblue
+        }
+    }
 
 }
 
