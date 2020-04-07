@@ -1,11 +1,37 @@
-h1 {
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+h1{
     color: aqua;
 }
-
-html {
-
+    
     box-sizing: border-box;
     margin: 0;
+}
+
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+
+
+nav { 
+text-decoration: none;
+    //text-align:center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+
 }
 
 body {
@@ -27,8 +53,10 @@ body {
             background-color: lightblue
         }
     }
+    
 
 }
+
 
 
 
@@ -52,3 +80,16 @@ h2 {
 .homepagelist {
     color: #8f9b93;
 }
+
+
+nav ul {
+    display:flex; 
+}
+
+nav li {
+    flex: 1 1 0; 
+    
+}
+
+
+
